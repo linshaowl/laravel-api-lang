@@ -1,0 +1,36 @@
+{
+    "name": "lswl/laravel-api-lang",
+    "description": "Laravel restful api lang.",
+    "keywords": [
+        "lswl",
+        "laravel",
+        "api",
+        "languages"
+    ],
+    "homepage": "https://linshaowl.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linshaowl",
+            "email": "linshaowl@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lswl\\ApiLang\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lswl\\ApiLang\\LswlServiceProvider"
+            ]
+        }
+    }
+}
